@@ -37,6 +37,13 @@ local.properties
 *.b#?
 *.s#?
 
+# Ignore any gerbers created during prototyping
+*.G??
+*.TXT
+*.dri
+# also ignaore the zip file which usually contains all the gerbers
+*.zip
+
 
 #################
 ## Visual Studio
