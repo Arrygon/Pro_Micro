@@ -1,4 +1,25 @@
 #################
+## SparkFun Useful stuff
+#################
+
+## AVR Development
+*.eep
+*.elf
+*.lst
+*.lss
+*.sym
+*.d
+*.o
+*.srec
+*.map
+
+## Notepad++ backup files
+*.bak
+
+## BOM files
+*bom*
+
+#################
 ## Eclipse
 #################
 
@@ -36,13 +57,6 @@ local.properties
 # Ignore the board and schematic backup files
 *.b#?
 *.s#?
-
-# Ignore any gerbers created during prototyping
-*.G??
-*.TXT
-*.dri
-# also ignaore the zip file which usually contains all the gerbers
-*.zip
 
 
 #################
